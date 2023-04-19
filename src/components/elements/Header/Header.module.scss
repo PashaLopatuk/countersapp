@@ -1,0 +1,17 @@
+@import '../../../styles/consts.scss';
+
+.header {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font_2;
+    transition: 1s;
+    // &:hover {
+    //     text-decoration:line-through;
+    // }
+    span {
+        font-weight: 700;
+        font-size: 40px;
+    }
+}

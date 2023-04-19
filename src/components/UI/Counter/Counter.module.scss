@@ -1,0 +1,48 @@
+@import '../../../styles/consts.scss';
+
+.counter {
+
+    transition: .5s all;
+    min-width: 200px;
+    min-height: 300px;
+    max-width: 200px;
+    max-height: 300px;
+    // border: 2px solid black ;
+    border-radius: 20px;
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 3px 10px 0px rgba(0,0,0,0.3);
+
+    &:hover {
+        box-shadow: 2px 3px 16px 0px rgba(0,0,0,0.4);
+    }
+    
+    &__title {
+        font-size: $fz_2;
+        font-weight: 500;
+    }
+    &__value {
+        font-size: $fz_3;
+        font-weight: 600;
+    }
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        // width: 100%;
+        gap: 20px;
+        height: 30px;
+        &__item {
+            border-radius: $bord_2;
+
+            // width: 100%;
+            // height: 100%;
+            max-width: 100px;
+            max-height: 140px;
+            min-width: 100%;
+            min-height: 100%;
+        }
+    }
+}

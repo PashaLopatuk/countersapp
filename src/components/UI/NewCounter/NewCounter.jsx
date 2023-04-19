@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import s from './NewCounter.module.scss'
 
 const NewCounter = ({setNewTitle, setCreate}) => {

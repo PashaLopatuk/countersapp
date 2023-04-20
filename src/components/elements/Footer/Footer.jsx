@@ -24,7 +24,6 @@ const Footer = () => {
                 </li>
             </ul>
         </nav>
-        <span>Don't forget to take a screenshot...</span>
     </footer>
   )
 }

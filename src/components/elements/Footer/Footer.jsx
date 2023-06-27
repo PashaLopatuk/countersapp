@@ -8,7 +8,7 @@ const Footer = () => {
         <nav className={s.navigation}>
             <ul className={s.navigation__links}>
                 <li className={s.navigation__links_item} title='My telegram'>
-                    <a href="https://t.me/pollymantano" target="_blank">
+                    <a href="https://t.me/pashajef" target="_blank">
                         {SvgSelector('telegram')}
                     </a>
                 </li>
